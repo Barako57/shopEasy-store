@@ -59,3 +59,55 @@ src/
 ├── App.jsx
 ├── main.jsx
 └── index.css
+
+## Application Flow
+
+Home
+↓
+Products
+↓
+Product Details
+↓
+Add to Cart
+↓
+Cart
+↓
+Checkout
+↓
+Login
+↓
+Protected Checkout
+
+## API
+
+Product information is fetched from:
+
+https://fakestoreapi.com/products
+
+The application uses fetch() and React's useEffect() to load product data.
+
+## React Concepts Demonstrated
+
+### Component-Based Architecture
+
+The application uses reusable components such as:
+
+- Navbar
+- ProductCard
+- SearchFilter
+- ProtectedRoute
+
+### React Router
+
+The application includes:
+
+/
+ /products
+ /products/:id
+ /products/:id/overview
+ /products/:id/reviews
+ /products/:id/specifications
+ /cart
+ /checkout
+ /login
+
