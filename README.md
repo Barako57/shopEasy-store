@@ -140,8 +140,6 @@ Product information is loaded using:
 ShopEasy Store is designed to work across:
 
 - Desktop
-- Mobile
-- Tablet
 
 ## Getting Started
 
@@ -180,7 +178,6 @@ npm run dev
 The project can be deployed using:
 
 - Vercel
-- Netlify
 - GitHub Pages
 
 ## 👨‍💻 Author
